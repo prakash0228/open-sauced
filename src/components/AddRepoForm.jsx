@@ -39,7 +39,7 @@ function AddRepoForm({goalsId, onGoalAdded, goals}) {
 
     if (statusCode === 404) {
       urlRef.current.focus();
-      setError("Repository not found!");
+      setError("Repository not found :(");
       return;
     }
 
